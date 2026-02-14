@@ -1,56 +1,58 @@
-Clinical Genomics Mortality Risk Prediction Prototype
-Overview
+**Clinical Genomics Mortality Risk Prediction Prototype** 
+
+**Overview**
 
 This project simulates a clinical-genomic data integration pipeline and implements a 12-month mortality risk prediction prototype using SQL-based relational modeling and machine learning.
 
 The objective is to demonstrate how structured clinical data and high-dimensional gene expression data can be integrated into a predictive risk stratification workflow.
 
-Business Context
+**Business Context**
 
 Early identification of high-risk patients is critical in healthtech environments for:
 
-Clinical prioritization
+* Clinical prioritization
 
-Resource allocation
+* Resource allocation
 
-Preventive intervention strategies
+* Preventive intervention strategies
 
 This prototype simulates a simplified predictive system integrating clinical and genomic features.
 
-Technical Stack
+**Technical Stack**
 
-Python
+* Python
 
-SQLite
+* SQLite
 
-Pandas
+* Pandas
 
-Scikit-learn
+* Scikit-learn
 
-Logistic Regression
+* Logistic Regression
 
-ROC-AUC evaluation
+* ROC-AUC evaluation
+  
 
-Data Pipeline
+**Data Pipeline**
 
-Synthetic dataset generation (clinical + gene expression)
+1. Synthetic dataset generation (clinical + gene expression)
 
-Relational database modeling using SQLite
+2. Relational database modeling using SQLite
 
-SQL JOIN operations for data integration
+3. SQL JOIN operations for data integration
 
-Feature transformation (long → wide pivot)
+4. Feature transformation (long → wide pivot)
 
-Logistic regression risk modeling
+5. Logistic regression risk modeling
 
-Model evaluation using ROC-AUC
+6. Model evaluation using ROC-AUC
 
-Model Performance
+**Model Performance**
 
-ROC-AUC: 0.69
+ROC-AUC: **0.69**
 
 The moderate discriminative performance reflects realistic signal-to-noise conditions often observed in high-dimensional biomedical datasets.
 
-Disclaimer
+**Disclaimer**
 
 This dataset is fully synthetic and created for educational and methodological demonstration purposes only.
