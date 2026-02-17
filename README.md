@@ -53,6 +53,13 @@ ROC-AUC: **0.69**
 
 The moderate discriminative performance reflects realistic signal-to-noise conditions often observed in high-dimensional biomedical datasets.
 
+**Dashboard**
+
+- [Download .pbix file](./projeto_git_1_rel.pbix) – Interactive Power BI report
+- [PDF overview](./projeto_git_1_rel.pdf) – Static version of the report
+
+> Note: The interactive report requires Power BI Desktop or Power BI Service access.
+
 **Disclaimer**
 
 This dataset is fully synthetic and created for educational and methodological demonstration purposes only.
